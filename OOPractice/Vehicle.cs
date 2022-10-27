@@ -1,20 +1,16 @@
-﻿using System;
-
-namespace OOPracticeTest
+﻿namespace OOPractice
 {
-    public class Car
+    using System;
+
+    public class Vehicle
     {
         private string name;
         private int speed;
 
-        public Car()
+        public Vehicle(string name, int speed)
         {
-        }
-
-        public Car(string v1, int v2)
-        {
-            this.name = v1;
-            this.speed = v2;
+            this.name = name;
+            this.speed = speed;
         }
 
         public string SpeedUp()
